@@ -1,4 +1,4 @@
-# pfsense_captiveportal_wifi_marketing
+# Pfsense Captiveportal Wifi Marketing
 Send Contact information to Marketing API
 
 Install: 
