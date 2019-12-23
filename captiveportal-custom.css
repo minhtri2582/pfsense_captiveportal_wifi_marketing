@@ -1,0 +1,200 @@
+body{
+	background-color:#FFF;	
+}
+
+/*.background_page{
+	background:url(../../../../images/internet_user.jpg) no-repeat center center fixed;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	
+}*/
+
+.col-md-4{
+	max-width:400px;
+}
+
+a, a:hover, a:active, a:link, a:visited, a:focus{
+	text-decoration:none;	
+     	color:#039;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+	padding:5px 0;
+}
+
+.trans_flag{
+	height:20px;
+	width:auto;	
+}
+
+
+.login .content {
+  /*background: url(../img/bg-white-lock.png) repeat;*/
+  background-color:rgba(255,255,255,0.9);
+  width: 400px;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  padding: 30px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border-radius:8px !important;
+  -webkit-border-radius:8px !important;
+  -moz-border-radius:8px !important;
+  -o-border-radius:8px !important;
+  /*float:right;*/
+}
+
+
+.login .content .form-control {
+    border-radius:16px !important;
+  	-webkit-border-radius:16px !important;
+  	-moz-border-radius:16px !important;
+  	-o-border-radius:16px !important;
+}
+
+.login .content .form-actions .btn {
+    border-radius:22px !important;
+  	-webkit-border-radius:22px !important;
+  	-moz-border-radius:22px !important;
+  	-o-border-radius:22px !important;
+}
+
+.full-width-tabs > ul.nav.nav-pills {
+			display: table;
+			width: 100%;
+			table-layout: fixed;
+}
+.full-width-tabs > ul.nav.nav-pills > li {
+			float: none;
+			display: table-cell;
+			
+}
+.full-width-tabs > ul.nav.nav-pills > li > a {
+			text-align: center;
+			border-radius:4px !important;
+		  -webkit-border-radius:4px !important;
+		  -moz-border-radius:4px !important;
+		  -o-border-radius:4px !important;
+}
+.take-all-space-you-can{
+			width:100%;
+			
+}
+
+.facebook_btn{
+	border-radius:4px !important;	
+	-webkit-border-radius:4px !important;
+	-moz-border-radius:4px !important;
+	-o-border-radius:4px !important;
+}
+
+
+ul.logo_holder{
+	/*width:100%;*/
+	margin:0 auto;
+	list-style: none;
+	/*background:#fff;*/	
+}
+
+ul.logo_holder li.asiana_logos{
+	display:inline-block;
+	margin:5px 5px;
+}
+
+
+
+ul.logo_holder li.asiana_logos img{
+	/*float:left;*/
+	height:50px; 
+	width:auto;
+	/*margin-right:5px;*/
+}
+
+
+.login .content_pms {
+  /*background: url(../img/bg-white-lock.png) repeat;*/
+  background-color:rgba(255,255,255,0.9);
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  padding: 30px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  /*float:left;*/
+  
+}
+
+
+
+.copyright{
+	position:relative; bottom:0; width:100%; 
+	color:#fff;
+}
+
+.copyright a{
+	color:#fff;
+}
+
+
+.division_or {
+  font: 18px sans-serif;
+  text-align: center;
+}
+
+.division_or.no-background {
+  position: relative;
+  overflow: hidden;
+}
+.division_or.no-background span {
+  display: inline-block;
+  vertical-align: baseline;
+  zoom: 1;
+  *display: inline;
+  *vertical-align: auto;
+  position: relative;
+  padding: 0 20px;
+}
+.division_or.no-background span:before,
+.division_or.no-background span:after {
+  content: '';
+  display: block;
+  width: 1000px;
+  position: absolute;
+  top: 0.73em;
+  border-top: 1px solid #999;
+}
+.division_or.no-background span:before {
+  right: 100%;
+}
+.division_or.no-background span:after {
+  left: 100%;
+}
+
+
+
+@media (max-width: 767px) {
+	.copyright{
+		position:relative;
+	}
+
+	.login .content{
+		width: 90%;
+		float:none;
+	}
+}
+
+@media (max-width: 480px) {
+
+  	.login .content {
+		width: 90%;
+
+	}
+
+
+	
+	
+}
