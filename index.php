@@ -4,27 +4,20 @@ include "config.php";
 function post_api($contacts)
 {
     require_once('api.class.php');
-    //$url     = 'https://mail.dataarc.com/api/jsonrpcserver';
-    //$api_key = 'a662c9247d5751a5e00728d2d7f0f844a663fe4c829adb6036f4a6b4d7f02fe0';
-    //$list_id = 579741;
     global $url;
     global $api_key;
     global $list_id;
-    
 
     // Create API wrapper object
     $api = new Api($url, $api_key, '3.3');
-writeDb(json_encode($contacts));
+	writeDb(json_encode($contacts));
     $listFolders = $api->invokeMethod('addContacts', $list_id, $contacts);
-writeLog($listFolders);
-    //echo PHP_EOL . 'Response:' . PHP_EOL;
-    //print_r($listFolders);
+	writeLog(json_encode($listFolders));
 }
 
 function writeLog($string)
 {
 	file_put_contents('log.txt','['.date("Y-m-d H:i:s")."]\t$string\n");
-
 }
 
 function writeDb($string)
