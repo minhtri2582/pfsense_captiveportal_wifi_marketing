@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="utf-8"/>
+            <title>Park Regis</title>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+            <meta http-equiv="Pragma" content="no-cache"/>
+            <meta http-equiv="Expires" content="0"/>
+            <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+            <meta content="" name="description"/>
+            <meta content="" name="author"/>
+            <!-- BEGIN GLOBAL MANDATORY STYLES -->
+            <link href="all.min.css" rel="stylesheet">
+            <link href="captiveportal-simple-line-icons.min.css" rel="stylesheet">
+            <link href="captiveportal-bootstrap.min.css" rel="stylesheet">
+            <link href="captiveportal-uniform.default.css" rel="stylesheet">
+            <link href="captiveportal-bootstrap-switch.min.css" rel="stylesheet">
+            <!-- END GLOBAL MANDATORY STYLES -->
+            <!-- BEGIN PAGE LEVEL STYLES -->
+            <link href="captiveportal-login-soft.css" rel="stylesheet">
+            <link rel="stylesheet" type="text/css" href="captiveportal-bootstrap-select.min.css"/>
+            <link rel="stylesheet" type="text/css" href="captiveportal-select2.css"/>
+
+            <!-- END PAGE LEVEL SCRIPTS -->
+            <!-- BEGIN THEME STYLES -->
+            <link href="captiveportal-components.css" rel="stylesheet">
+            <link href="captiveportal-plugins.css" rel="stylesheet" type="text/css"/>
+            <link href="captiveportal-default.css" rel="stylesheet">
+            <link href="captiveportal-style4.css" rel="stylesheet">
+            <link href="captiveportal-custom.css" rel="stylesheet">
+
+            <style>
+
+                body {
+                    background: url("captiveportal-park_regis_bg.jpg") no-repeat center center fixed;
+                    background-size: cover;
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    margin-top: 0;
+
+                }
+
+                .login1 {
+
+                    background: url("captiveportal-park_regis_bg.jpg") no-repeat center center fixed;
+                    background-size: cover;
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    margin-top: 0;
+                }
+
+                .login .content {
+
+                    background-color: rgba(20, 20, 20, 0.9);
+                    width: 400px;
+                    margin: 0 auto;
+                    margin-bottom: 0px;
+                    padding: 30px;
+                    padding-top: 20px;
+                    padding-bottom: 15px;
+                    border-radius: 10px !important;
+                    -webkit-border-radius: 10px !important;
+                    -moz-border-radius: 10px !important;
+                    -o-border-radius: 10px !important;
+                    z-index: 2;
+                    position: relative;
+                }
+
+                .login .content_free {
+
+                    background-color: rgba(20, 20, 20, 0.9);
+                    min-width: 360px;
+                    margin: 0 auto;
+                    margin-bottom: 0px;
+                    padding: 30px;
+                    padding-top: 20px;
+                    padding-bottom: 15px;
+                    border-radius: 10px !important;
+                    -webkit-border-radius: 10px !important;
+                    -moz-border-radius: 10px !important;
+                    -o-border-radius: 10px !important;
+                    z-index: 2;
+                    position: relative;
+                }
+
+                #resend_code {
+                    display: none;
+
+                }
+
+                .login .content h3 {
+                    text-align: center;
+                    color: #333;
+
+                }
+
+                .login .content p {
+                    color: #333;
+                }
+
+                .login .content .form-actions .btn {
+                    background-color: #522380;
+                    height: 45px;
+                }
+
+                a, a:hover, a:active, a:link, a:visited, a:focus {
+                    text-decoration: none;
+                    color: #333;
+
+                }
+
+                @media only screen and  (min-width: 768px) {
+                    .login .logo_client {
+                        text-align: left;
+                    }
+                }
+
+                @media only screen and  (max-width: 767px) {
+                    .logo_client {
+                        text-align: center;
+                    }
+
+                    .login .content {
+                        width: 95%;
+                    }
+
+                    body {
+                        background: url("captiveportal-park_regis_bg.jpg") no-repeat center center fixed;
+                        background-size: cover;
+                        -webkit-background-size: cover;
+                        -moz-background-size: cover;
+                        -o-background-size: cover;
+                        margin-top: 0;
+
+                    }
+
+                    .login1 {
+
+                        background: url("captiveportal-park_regis_bg.jpg") no-repeat center center fixed;
+                        background-size: cover;
+                        -webkit-background-size: cover;
+                        -moz-background-size: cover;
+                        -o-background-size: cover;
+                        margin-top: 0;
+                    }
+
+                }
+
+                .login .content p, .login .content label {
+                    color: #000;
+                }
+
+                .login .content .form-round {
+                    border-radius: 16px !important;
+                    -webkit-border-radius: 16px !important;
+                    -moz-border-radius: 16px !important;
+                    -o-border-radius: 16px !important;
+                }
+
+            </style>
+
+            <!-- END THEME STYLES -->
+        </head>
+        <!-- END HEAD -->
+
+
+        <!-- BEGIN BODY -->
+<body class="login">
+
+<!-- BEGIN HEADER -->
+<div class="margin-bottom-25"></div>
+<!-- END HEADER -->
+<div class="clearfix"></div>
+
+<div class="container">
+    <!-- BEGIN PAGE CONTAINER -->
+    <div class="content margin-top-20">
+        <div>
+            <img src="captiveportal-park-regis_white.png" alt="Park Regis" style="" class="img-responsive"/>
+        </div>
+
+        <h3 class="form-title" style="color:#f6ff00; text-align:center">FREE INTERNET SERVICES</h3>
+
+        <form method="post" class="login-form" action="$PORTAL_ACTION$" method="post" id="form_free">
+
+            <input name="redirurl" type="hidden" value="$PORTAL_REDIRURL$">
+            <input name="zone" type="hidden" value="$PORTAL_ZONE$">
+            <input name="hotel" type="hidden" value="LICO">
+            <!--  Pin Code details here -->
+
+            <div class="form-group ">
+                <p style="color:#fff">Please enter the details below</p>
+            </div>
+            <div class="form-group ">
+                <!-- <label class="control-label form-label">First Name</label> -->
+                <div class="input-icon"><i class="fa fa-user"></i>
+                    <input class="form-control placeholder-no-fix form-round" type="text" autocomplete="off"
+                           placeholder="Firstname" id="firstname" name="firstname" value="Test" required/>
+
+                </div>
+            </div>
+
+            <div class="form-group ">
+                <!-- <label class="control-label form-label">Last Name</label> -->
+                <div class="input-icon"><i class="fa fa-user"></i>
+                    <input class="form-control placeholder-no-fix form-round" type="text" autocomplete="off"
+                           placeholder="Lastname" name="lastname" id="lastname" value="Test" required/>
+
+                </div>
+            </div>
+
+
+            <div class="form-group ">
+                <!--  <label class="control-label form-label">Email</label> -->
+                <div class="input-icon"><i class="fa fa-envelope"></i>
+                    <input class="form-control placeholder-no-fix form-round" type="email" autocomplete="off"
+                           placeholder="Email" name="email" id="email" value="test@abc.com" required/>
+
+                </div>
+            </div>
+
+            <div class="form-group ">
+                <label class="control-label form-label" style="color:#fff">Country Origin</label>
+                <div class="form-round">
+                    <select name="nationality" required class="form-control select2 form-round"
+                            id="select2_sample4">
+                        <option value="AF">Afghanistan</option>
+                        <option value="AL">Albania</option>
+                        <option value="DZ">Algeria</option>
+                        <option value="AS">American Samoa</option>
+                        <option value="AD">Andorra</option>
+                        <option value="AO">Angola</option>
+                        <option value="AI">Anguilla</option>
+                        <option value="AR">Argentina</option>
+                        <option value="AM">Armenia</option>
+                        <option value="AW">Aruba</option>
+                        <option value="AU">Australia</option>
+                        <option value="AT">Austria</option>
+                        <option value="AZ">Azerbaijan</option>
+                        <option value="BS">Bahamas</option>
+                        <option value="BH">Bahrain</option>
+                        <option value="BD">Bangladesh</option>
+                        <option value="BB">Barbados</option>
+                        <option value="BY">Belarus</option>
+                        <option value="BE">Belgium</option>
+                        <option value="BZ">Belize</option>
+                        <option value="BJ">Benin</option>
+                        <option value="BM">Bermuda</option>
+                        <option value="BT">Bhutan</option>
+                        <option value="BO">Bolivia</option>
+                        <option value="BA">Bosnia and Herzegowina</option>
+                        <option value="BW">Botswana</option>
+                        <option value="BV">Bouvet Island</option>
+                        <option value="BR">Brazil</option>
+                        <option value="IO">British Indian Ocean Territory</option>
+                        <option value="BN">Brunei Darussalam</option>
+                        <option value="BG">Bulgaria</option>
+                        <option value="BF">Burkina Faso</option>
+                        <option value="BI">Burundi</option>
+                        <option value="KH">Cambodia</option>
+                        <option value="CM">Cameroon</option>
+                        <option value="CA">Canada</option>
+                        <option value="CV">Cape Verde</option>
+                        <option value="KY">Cayman Islands</option>
+                        <option value="CF">Central African Republic</option>
+                        <option value="TD">Chad</option>
+                        <option value="CL">Chile</option>
+                        <option value="CN">China</option>
+                        <option value="CX">Christmas Island</option>
+                        <option value="CC">Cocos (Keeling) Islands</option>
+                        <option value="CO">Colombia</option>
+                        <option value="KM">Comoros</option>
+                        <option value="CG">Congo</option>
+                        <option value="CD">Congo, the Democratic Republic of the</option>
+                        <option value="CK">Cook Islands</option>
+                        <option value="CR">Costa Rica</option>
+                        <option value="CI">Cote d'Ivoire</option>
+                        <option value="HR">Croatia (Hrvatska)</option>
+                        <option value="CU">Cuba</option>
+                        <option value="CY">Cyprus</option>
+                        <option value="CZ">Czech Republic</option>
+                        <option value="DK">Denmark</option>
+                        <option value="DJ">Djibouti</option>
+                        <option value="DM">Dominica</option>
+                        <option value="DO">Dominican Republic</option>
+                        <option value="EC">Ecuador</option>
+                        <option value="EG">Egypt</option>
+                        <option value="SV">El Salvador</option>
+                        <option value="GQ">Equatorial Guinea</option>
+                        <option value="ER">Eritrea</option>
+                        <option value="EE">Estonia</option>
+                        <option value="ET">Ethiopia</option>
+                        <option value="FK">Falkland Islands (Malvinas)</option>
+                        <option value="FO">Faroe Islands</option>
+                        <option value="FJ">Fiji</option>
+                        <option value="FI">Finland</option>
+                        <option value="FR">France</option>
+                        <option value="GF">French Guiana</option>
+                        <option value="PF">French Polynesia</option>
+                        <option value="TF">French Southern Territories</option>
+                        <option value="GA">Gabon</option>
+                        <option value="GM">Gambia</option>
+                        <option value="GE">Georgia</option>
+                        <option value="DE">Germany</option>
+                        <option value="GH">Ghana</option>
+                        <option value="GI">Gibraltar</option>
+                        <option value="GR">Greece</option>
+                        <option value="GL">Greenland</option>
+                        <option value="GD">Grenada</option>
+                        <option value="GP">Guadeloupe</option>
+                        <option value="GU">Guam</option>
+                        <option value="GT">Guatemala</option>
+                        <option value="GN">Guinea</option>
+                        <option value="GW">Guinea-Bissau</option>
+                        <option value="GY">Guyana</option>
+                        <option value="HT">Haiti</option>
+                        <option value="HM">Heard and Mc Donald Islands</option>
+                        <option value="VA">Holy See (Vatican City State)</option>
+                        <option value="HN">Honduras</option>
+                        <option value="HK">Hong Kong</option>
+                        <option value="HU">Hungary</option>
+                        <option value="IS">Iceland</option>
+                        <option value="IN">India</option>
+                        <option value="ID">Indonesia</option>
+                        <option value="IR">Iran (Islamic Republic of)</option>
+                        <option value="IQ">Iraq</option>
+                        <option value="IE">Ireland</option>
+                        <option value="IL">Israel</option>
+                        <option value="IT">Italy</option>
+                        <option value="JM">Jamaica</option>
+                        <option value="JP">Japan</option>
+                        <option value="JO">Jordan</option>
+                        <option value="KZ">Kazakhstan</option>
+                        <option value="KE">Kenya</option>
+                        <option value="KI">Kiribati</option>
+                        <option value="KP">Korea, Democratic People's Republic of</option>
+                        <option value="KR">Korea, Republic of</option>
+                        <option value="KW">Kuwait</option>
+                        <option value="KG">Kyrgyzstan</option>
+                        <option value="LA">Lao People's Democratic Republic</option>
+                        <option value="LV">Latvia</option>
+                        <option value="LB">Lebanon</option>
+                        <option value="LS">Lesotho</option>
+                        <option value="LR">Liberia</option>
+                        <option value="LY">Libyan Arab Jamahiriya</option>
+                        <option value="LI">Liechtenstein</option>
+                        <option value="LT">Lithuania</option>
+                        <option value="LU">Luxembourg</option>
+                        <option value="MO">Macau</option>
+                        <option value="MK">Macedonia, The Former Yugoslav Republic of</option>
+                        <option value="MG">Madagascar</option>
+                        <option value="MW">Malawi</option>
+                        <option value="MY">Malaysia</option>
+                        <option value="MV">Maldives</option>
+                        <option value="ML">Mali</option>
+                        <option value="MT">Malta</option>
+                        <option value="MH">Marshall Islands</option>
+                        <option value="MQ">Martinique</option>
+                        <option value="MR">Mauritania</option>
+                        <option value="MU">Mauritius</option>
+                        <option value="YT">Mayotte</option>
+                        <option value="MX">Mexico</option>
+                        <option value="FM">Micronesia, Federated States of</option>
+                        <option value="MD">Moldova, Republic of</option>
+                        <option value="MC">Monaco</option>
+                        <option value="MN">Mongolia</option>
+                        <option value="MS">Montserrat</option>
+                        <option value="MA">Morocco</option>
+                        <option value="MZ">Mozambique</option>
+                        <option value="MM">Myanmar</option>
+                        <option value="NA">Namibia</option>
+                        <option value="NR">Nauru</option>
+                        <option value="NP">Nepal</option>
+                        <option value="NL">Netherlands</option>
+                        <option value="AN">Netherlands Antilles</option>
+                        <option value="NC">New Caledonia</option>
+                        <option value="NZ">New Zealand</option>
+                        <option value="NI">Nicaragua</option>
+                        <option value="NE">Niger</option>
+                        <option value="NG">Nigeria</option>
+                        <option value="NU">Niue</option>
+                        <option value="NF">Norfolk Island</option>
+                        <option value="MP">Northern Mariana Islands</option>
+                        <option value="NO">Norway</option>
+                        <option value="OM">Oman</option>
+                        <option value="PK">Pakistan</option>
+                        <option value="PW">Palau</option>
+                        <option value="PA">Panama</option>
+                        <option value="PG">Papua New Guinea</option>
+                        <option value="PY">Paraguay</option>
+                        <option value="PE">Peru</option>
+                        <option value="PH">Philippines</option>
+                        <option value="PN">Pitcairn</option>
+                        <option value="PL">Poland</option>
+                        <option value="PT">Portugal</option>
+                        <option value="PR">Puerto Rico</option>
+                        <option value="QA">Qatar</option>
+                        <option value="RE">Reunion</option>
+                        <option value="RO">Romania</option>
+                        <option value="RU">Russian Federation</option>
+                        <option value="RW">Rwanda</option>
+                        <option value="KN">Saint Kitts and Nevis</option>
+                        <option value="LC">Saint LUCIA</option>
+                        <option value="VC">Saint Vincent and the Grenadines</option>
+                        <option value="WS">Samoa</option>
+                        <option value="SM">San Marino</option>
+                        <option value="ST">Sao Tome and Principe</option>
+                        <option value="SA">Saudi Arabia</option>
+                        <option value="SN">Senegal</option>
+                        <option value="SC">Seychelles</option>
+                        <option value="SL">Sierra Leone</option>
+                        <option value="SG">Singapore</option>
+                        <option value="SK">Slovakia (Slovak Republic)</option>
+                        <option value="SI">Slovenia</option>
+                        <option value="SB">Solomon Islands</option>
+                        <option value="SO">Somalia</option>
+                        <option value="ZA">South Africa</option>
+                        <option value="GS">South Georgia and the South Sandwich Islands</option>
+                        <option value="ES">Spain</option>
+                        <option value="LK">Sri Lanka</option>
+                        <option value="SH">St. Helena</option>
+                        <option value="PM">St. Pierre and Miquelon</option>
+                        <option value="SD">Sudan</option>
+                        <option value="SR">Suriname</option>
+                        <option value="SJ">Svalbard and Jan Mayen Islands</option>
+                        <option value="SZ">Swaziland</option>
+                        <option value="SE">Sweden</option>
+                        <option value="CH">Switzerland</option>
+                        <option value="SY">Syrian Arab Republic</option>
+                        <option value="TW">Taiwan, Province of China</option>
+                        <option value="TJ">Tajikistan</option>
+                        <option value="TZ">Tanzania, United Republic of</option>
+                        <option value="TH">Thailand</option>
+                        <option value="TG">Togo</option>
+                        <option value="TK">Tokelau</option>
+                        <option value="TO">Tonga</option>
+                        <option value="TT">Trinidad and Tobago</option>
+                        <option value="TN">Tunisia</option>
+                        <option value="TR">Turkey</option>
+                        <option value="TM">Turkmenistan</option>
+                        <option value="TC">Turks and Caicos Islands</option>
+                        <option value="TV">Tuvalu</option>
+                        <option value="UG">Uganda</option>
+                        <option value="UA">Ukraine</option>
+                        <option value="AE">United Arab Emirates</option>
+                        <option value="GB">United Kingdom</option>
+                        <option value="US">United States</option>
+                        <option value="UM">United States Minor Outlying Islands</option>
+                        <option value="UY">Uruguay</option>
+                        <option value="UZ">Uzbekistan</option>
+                        <option value="VU">Vanuatu</option>
+                        <option value="VE">Venezuela</option>
+                        <option value="VN" selected>VietNam</option>
+                        <option value="VG">Virgin Islands (British)</option>
+                        <option value="VI">Virgin Islands (U.S.)</option>
+                        <option value="WF">Wallis and Futuna Islands</option>
+                        <option value="EH">Western Sahara</option>
+                        <option value="YE">Yemen</option>
+                        <option value="ZM">Zambia</option>
+                        <option value="ZW">Zimbabwe</option>
+                        <option value="ZW">Zimbabwe</option>
+
+                    </select>
+
+                </div>
+            </div>
+
+
+            <!--  Pin Code details here -->
+            <div class="form-group">
+                <input type="hidden" name="redirect_url" value="https://cocobay.vn">
+                <input type="hidden" name="accept" value="Continue">
+            </div>
+
+            <div class="form-group">
+
+                <label style="color:#fff">
+                    <input type="checkbox" checked name="terms" value="1" id="terms_conditions">&nbsp;
+                    I accept the <a href="#myModal" class="terms_class" style="color:#fff">Terms of Conditions </a>
+
+                </label>
+
+            </div>
+
+            <div class="form-actions" style="margin-top:20px">
+                <button type="submit" name="accept" class="btn btn-success btn-block" id="free_connect"
+                        value="Continue"><strong>Start Browsing</strong></button>
+                <!-- <input name="accept" type="submit" style="margin-top:20px" class="btn btn-success btn-block" value="Continue"> <strong>Start Browsing</strong> -->
+                <button type="button" class="btn btn-success btn-block" id="free_cancel" style="margin-top:10px">
+                    <strong>Cancel</strong></button>
+            </div>
+
+        </form>
+        <!-- Free Account  -->
+        <div style="text-align:center; margin-top:30px; display: none;">
+            <h4 style="color:#fff; font-weight:bold">*500MB free per 24 hour period</h4>
+        </div>
+
+        <div class="clearfix"></div>
+        <div class="clearfix"></div>
+        <div style="margin-top:30px; text-align:center"></div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Terms and Conditions</h4>
+                </div>
+                <div class="modal-body" style="text-align:justify">
+                    <div id="terms_contents"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+
+    <script src="jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            $('.terms_class').on('click', function () {
+                $(".modal-body #terms_contents").html('Điểu khoản sử dụng');
+                $('#myModal').modal('show');
+            });
+
+            $('#form_free').on('submit', function (e) {
+                if ($("#terms_conditions").prop('checked') == false) {
+                    e.preventDefault();
+                    alert("Please accept the Terms and Conditions");
+                }
+                else {
+                    e.preventDefault();
+                    e.returnValue = false;
+                    document.getElementById("form_free").submit();
+                }
+            });
+
+
+            $('#free_cancel').click(function (e) {
+                e.preventDefault();
+                alert('Thank you!');
+            });
+        });
+    </script>
+</div>
+</body>
+
+</html>
+</title>
+</head>
+<body>
+
+</body>
+</html>
