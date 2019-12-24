@@ -1,4 +1,5 @@
 # Pfsense Captive Portal Wifi Marketing
+
 ##Send Contact information to Marketing API
 
 ### Bước cài đặt:
@@ -21,5 +22,5 @@ Ví dụ:
     $hotel = 'LICO';
 ?>
 ```
-4. Pfsense admin: vào Enable Captive Portal, update file portal.html (Lứu ý: không cần chỉnh allow Domain và allow IP. Các file css, js, image đã có sẵn khi patch captive portal ở bước 2)
+4. Vào Pfsense web admin: Enable Captive Portal, update file portal.html (Lưu ý: không cần chỉnh allow Domain và allow IP. Các file css, js, image đã có sẵn khi patch captive portal ở bước 2)
 Download file portal.html tại: https://raw.githubusercontent.com/minhtri2582/pfsense_captiveportal_wifi_marketing/master/portal.html
