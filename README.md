@@ -3,7 +3,7 @@
 ## Send Contact information to Marketing API
 
 ### Bước cài đặt:
-1. Pfsense Community Edition
+1. Cài đặt Pfsense bản Community Edition
 2. SSH pfsense, vào shell, chạy command để patch module captive portal:
 ```
 curl -s https://raw.githubusercontent.com/minhtri2582/pfsense_captiveportal_wifi_marketing/master/install.sh
