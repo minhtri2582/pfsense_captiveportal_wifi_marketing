@@ -20,7 +20,7 @@ function post_api($contacts)
 
 function writeDb($string)
 {
-	file_put_contents('db.txt','['.date("Y-m-d H:i:s")."]\t$string\n");
+	file_put_contents('db.txt','['.date("Y-m-d H:i:s")."]\t$string\n",FILE_APPEND);
 }
 
 /*
