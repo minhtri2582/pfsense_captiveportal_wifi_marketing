@@ -22,9 +22,9 @@ Ví dụ: (các tham số này đã theo thực tế, chỉ điều chỉnh tron
 ```
 4. Cấu hình Captive Portal trên Pfsense Web Admin: 
 - Services - Captive Portal:  Add Zone.
-- Enable Captive Portal, update file portal.html (Lưu ý: không cần chỉnh Allow Hostnames, Allow IP Addresses, File Manager. Các file css, js, imaage đã có sẵn khi patch Captive Portal ở bước 2)
+- Enable Captive Portal, chọn subnet. (Lưu ý: không cần chỉnh Allow Hostnames, Allow IP Addresses, File Manager. Các file css, js, imaage đã có sẵn khi patch Captive Portal ở bước 2)
 ![alt text](https://raw.githubusercontent.com/minhtri2582/pfsense_captiveportal_wifi_marketing/master/1_enable_captive.png)
-- Download file mẫu portal.html tại: https://raw.githubusercontent.com/minhtri2582/pfsense_captiveportal_wifi_marketing/master/portal.html
+- Upload file portal.html. Download file mẫu portal.html tại: https://raw.githubusercontent.com/minhtri2582/pfsense_captiveportal_wifi_marketing/master/portal.html
 ![alt text](https://raw.githubusercontent.com/minhtri2582/pfsense_captiveportal_wifi_marketing/master/2_Login_upload.png)
 - Có thể tạo nhiều Zone riêng subnet cho các khách sạn khác nhau. Trong file portal.html thay đổi mã khách sạn tương ứng:
 ```
