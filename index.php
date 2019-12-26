@@ -18,11 +18,6 @@ function post_api($contacts)
     writeDb(json_encode($contacts)."\t".json_encode($listFolders));		
 }
 
-function writeLog($string)
-{
-	file_put_contents('log.txt','['.date("Y-m-d H:i:s")."]\t$string\n",FILE_APPEND);
-}
-
 function writeDb($string)
 {
 	file_put_contents('db.txt','['.date("Y-m-d H:i:s")."]\t$string\n");
