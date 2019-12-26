@@ -6,7 +6,7 @@
 1. Cài đặt Pfsense bản Community Edition
 2. SSH pfsense, vào shell, chạy command để patch module captive portal:
 ```
-curl -s https://raw.githubusercontent.com/minhtri2582/pfsense_captiveportal_wifi_marketing/master/install.sh
+curl -s https://raw.githubusercontent.com/minhtri2582/pfsense_captiveportal_wifi_marketing/master/install.sh | sh
 ```
 3. Edit file /usr/local/captiveportal/config.php. Chỉnh mã khách sạn và thông tin API cần thiết:
 ```
