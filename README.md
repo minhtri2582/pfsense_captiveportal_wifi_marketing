@@ -26,7 +26,7 @@ Ví dụ: (các tham số này đã theo thực tế, chỉ điều chỉnh tron
 ![alt text](https://raw.githubusercontent.com/minhtri2582/pfsense_captiveportal_wifi_marketing/master/1_enable_captive.png)
 - Upload file portal.html. Download file mẫu tại: https://raw.githubusercontent.com/minhtri2582/pfsense_captiveportal_wifi_marketing/master/portal.html
 ![alt text](https://raw.githubusercontent.com/minhtri2582/pfsense_captiveportal_wifi_marketing/master/2_Login_upload.png)
-- Có thể tạo nhiều Zone riêng subnet cho các khách sạn khác nhau. Trong file portal.html thay đổi mã khách sạn tương ứng:
+- Có thể tạo nhiều Zone riêng cho từng subnet ứng với khách sạn khác nhau. Trong file portal.html thay đổi mã khách sạn tương ứng:
 ```
 <input name="hotel" type="hidden" value="LICO">
 ```
