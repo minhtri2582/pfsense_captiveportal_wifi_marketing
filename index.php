@@ -1,12 +1,9 @@
 <?php
-include "config.php";
-
+/* datarc API */
 function post_api($contacts)
 {
     require_once('api.class.php');
-    global $url;
-    global $api_key;
-    global $list_id;
+    include_once "config.php";
 
     // Create API wrapper object
     $api = new Api($url, $api_key, '3.3');
