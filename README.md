@@ -8,6 +8,8 @@
 ```
 curl -s https://raw.githubusercontent.com/minhtri2582/pfsense_captiveportal_wifi_marketing/master/install.sh | sh
 ```
+![alt text](https://raw.githubusercontent.com/minhtri2582/pfsense_captiveportal_wifi_marketing/master/install.png)
+
 3. Edit file /usr/local/captiveportal/config.php. Chỉnh thông tin API cần thiết:
 ```
 cd /usr/local/captiveportal
