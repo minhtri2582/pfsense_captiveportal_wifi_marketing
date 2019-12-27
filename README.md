@@ -3,7 +3,9 @@
 ## Send Contact information to DataArc API
 
 ### Bước cài đặt:
-1. Cài đặt Pfsense bản Community Edition. Enable ssh shell. 
+1. Cài đặt Pfsense bản Community Edition
+System - Advanced - Enable ssh shell
+![alt text](https://raw.githubusercontent.com/minhtri2582/pfsense_captiveportal_wifi_marketing/master/4_enable_ssh.png)
 2. SSH Pfsense, vào shell, chạy command để patch module Captive Portal:
 ```
 curl -s https://raw.githubusercontent.com/minhtri2582/pfsense_captiveportal_wifi_marketing/master/install.sh | sh
